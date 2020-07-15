@@ -60,12 +60,12 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             RaisedButton(onPressed: (){
-//              customLaunch("tel:+9647825980887");
-              launch("tel://+9647825980887",forceSafariVC: false,forceWebView: false);
+              customLaunch("tel:07825980887");
+//              launch("tel://+9647825980887",forceSafariVC: false,forceWebView: false);
             },child: Text("Make phone call"),),
 
             RaisedButton(onPressed: (){
-              launch(Uri.encodeFull("mailto:yaseenabdulah01@gmail.com"),forceSafariVC: false,forceWebView: false);
+           customLaunch("mailto:yaseenabdulah01@gmail.com");
             },child: Text("Email"),),
           ],
         ),
